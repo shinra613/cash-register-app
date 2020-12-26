@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
 
-let currencies = [2000, 500, 200, 100, 20, 10, 5, 1];
+let currencies = [2000, 500, 200, 100, 50, 20, 10, 5, 2, 1];
 let noteUsed = [];
 
 export default function App() {
