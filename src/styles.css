@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+  background-image: linear-gradient(to right, #76bb1c, #00b2df);
+  color: black;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container-main {
+  background-color: #ffe6e6;
+  padding: 3rem;
+  border-radius: 2rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+input {
+  padding: 1rem;
+  margin: 1rem;
+  width: 70%;
+  height: 10%;
+  border-radius: 2rem;
+}
+
+h4 {
+  font-size: 0.7rem;
+}
+.container-general {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  max-width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.container-general-2 {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.container-result-1 {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+  max-width: 50%;
+  margin: auto;
+}
+
+.container-result {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  max-width: 35%;
+  margin: auto;
+}
+
+.container-result-2 {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-flow: column;
+  text-align: right;
+  max-width: 35%;
+  margin: auto;
+}
+
+button {
+  width: 5rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 50px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  background: white;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+button:active {
+  position: relative;
+  top: 10px;
+}
+
+.final {
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 90%;
+  border-radius: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.resultTitle {
+  margin: auto;
+  padding: 1rem;
+  font-size: 1rem;
+}
